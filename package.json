@@ -22,6 +22,11 @@
   "author": "Joonas Kallunki <jkallunki@gmail.com> (https://jkallunki.dev/)",
   "license": "MIT",
   "devDependencies": {
+    "@types/styled-components": "4.1.18",
     "typescript": "3.6.2"
+  },
+  "dependencies": {
+    "normalize.cssinjs": "1.1.0",
+    "styled-components": "4.3.2"
   }
 }
