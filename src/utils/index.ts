@@ -20,3 +20,23 @@ const common = css`
   background: none;
   cursor: inherit;
 `;
+
+const resets = {
+  normalize,
+  common,
+};
+
+const resetWithSelectors = libResetWithSelectors(normalize);
+
+const allStates = (styles: string) => css`
+  &:hover,
+  &:active,
+  &:focus,
+  &:focus-within {
+    ${styles}
+  }
+`;
+
+type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
+
+export { resets, resetWithSelectors, allStates, Omit };
