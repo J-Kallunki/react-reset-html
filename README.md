@@ -24,6 +24,14 @@ With Typescript to use component for wrapping all components contain Prop-postfi
 import { HtmlA, HtmlAProps } from 'suomifi-ui-components';
 ```
 
+### Github Package Registry
+
+To use this package from Github Package Registry add `.npmrc` to your project with:
+
+```
+@j-kallunki:registry=https://npm.pkg.github.com
+```
+
 ## Current collection
 
 - HtmlA
