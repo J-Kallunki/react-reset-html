@@ -23,6 +23,9 @@
   ],
   "author": "Joonas Kallunki <jkallunki@gmail.com> (https://jkallunki.dev/)",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@types/react": "16.9.2",
     "@types/styled-components": "4.1.18",
