@@ -1,6 +1,6 @@
 {
-  "name": "react-reset-html",
-  "version": "0.1.0",
+  "name": "@j-kallunki/react-reset-html",
+  "version": "0.2.0",
   "description": "Style-reseted HTML elements as React-components",
   "repository": "https://github.com/j-kallunki/react-reset-html",
   "main": "dist/index.js",
