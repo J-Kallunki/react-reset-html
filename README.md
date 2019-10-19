@@ -36,3 +36,4 @@ import { HtmlA, HtmlAProps } from 'suomifi-ui-components';
 - HtmlNav
 - HtmlOl
 - HtmlSpan
+- HtmlUl
