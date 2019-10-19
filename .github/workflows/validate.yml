@@ -1,0 +1,16 @@
+name: Validate PR
+on: [pull_request]
+
+jobs:
+  build:
+    name: Validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: Borales/actions-yarn@master
+      - name: yarn install and build
+        run: |
+          yarn
+          yarn build
+        env:
+          CI: true

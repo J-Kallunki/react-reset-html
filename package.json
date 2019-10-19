@@ -1,0 +1,39 @@
+{
+  "name": "react-reset-html",
+  "version": "0.2.0",
+  "description": "Style-reseted HTML elements as React-components",
+  "repository": "https://github.com/j-kallunki/react-reset-html",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "react",
+    "reset",
+    "html",
+    "css",
+    "normalize"
+  ],
+  "author": "Joonas Kallunki <jkallunki@gmail.com> (https://jkallunki.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "16.9.2",
+    "@types/styled-components": "4.1.18",
+    "rimraf": "3.0.0",
+    "typescript": "3.6.2"
+  },
+  "dependencies": {
+    "normalize.cssinjs": "1.1.0",
+    "styled-components": "4.3.2"
+  },
+  "peerDependencies": {
+    "react": "16.9.0"
+  }
+}
